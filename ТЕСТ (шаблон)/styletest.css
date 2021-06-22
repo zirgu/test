@@ -1,0 +1,159 @@
+*{
+	font-family: verdana;
+}
+body {
+    background-image: url(fon.jpg); 
+    background-attachment: fixed; 
+   }
+table{
+	width: 100%;
+	height: 150px;
+}
+textarea{
+	background: transparent;
+	COLOR: #A64E00; 
+	FONT-SIZE: 25px; 
+	TEXT-ALIGN: center; 
+	border: 0;
+	border-radius: 15px;
+	resize: none;
+	font-weight: bold;
+
+}
+.h{
+	height: 25px;
+	margin-top: -15px;
+	color: #FFB573;
+}
+.zagolovok{
+	width: 90%;
+	height: 50px;
+	background-color: #A64E00;;
+	padding: 10px;
+	border-radius: 30px;	
+}
+.textarea{
+	width: 60%;
+	height: 60px;
+	background-color: black;
+	padding: 50px;
+	border-radius: 15px;
+	background-color: rgba(255, 181, 115, .9);
+}
+.fon{
+	background-color: rgba(255, 120, 0, .6);
+	width: 90%;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px;
+}
+.ones{
+	width: 30px;
+}
+.twos{
+	width: 30px;
+}
+.number{
+	width: 30px;
+	height: 30px;
+	background-color: rgba(94, 196, 205, .9);
+	border-radius: 15px;
+	display:grid;
+	place-items:center;
+	margin: auto;
+	box-shadow: 0 0 5px;	
+}
+.numbertext{
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+
+}
+.question{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(94, 196, 205, .9);
+	border-radius: 15px;
+	display:grid;
+	place-items:center;	
+	box-shadow: 0 0 5px;
+	
+}
+.questiontext{
+	margin-right: auto;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+
+.threes{
+	width: 30px;
+}
+.fours{
+	width: 20px;
+}
+.otvet{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 120, 0, .9);
+	border-radius: 15px;
+	display:grid;
+	place-items:center;
+	box-shadow: 0 0 5px;
+}
+.textotvet{
+	margin-right: auto;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+}
+.dot{
+	opacity: 1;
+	width: 30px;
+	height: 30px;
+    margin: auto;
+    border-color: red;
+
+}
+
+.button{
+	border-radius: 25px;
+	width: 90px;
+	height: 40px;
+	border-color: rgba(0, 0, 0, .5);
+	background-color: #A64E00;
+	color: #FFB573;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+.button:hover{
+	border-radius: 25px;
+	width: 90px;
+	height: 40px;
+	border-color: rgba(0, 0, 0, .5);
+	background-color: #015C65;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #5EC4CD;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .9) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF9A40;
+    border-radius: 8px;
+    border: 3px solid #5EC4CD;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF7800;
+}
